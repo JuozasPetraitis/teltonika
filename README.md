@@ -5,7 +5,7 @@ To get started read below.
 
 ## To start project
 
-`npm init` > `npm clone https://github.com/JuozasPetraitis/teltonika-task.git` > `npm install`
+`npm init` > `npm clone https://github.com/JuozasPetraitis/teltonika.git` > `npm install`
 
 ### To run project on your local machine
 
