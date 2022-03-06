@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply break-all font-Montseratt;
+  }
+  input {
+    @apply border border-black py-1 pl-4;
+  }
+}
+
+@font-face {
+  font-family: 'Montseratt';
+  src: url('../fonts/Montserrat.ttf') format('truetype');
+  font-weight: 100 900;
+}
+
+@font-face {
+  font-family: 'Montseratt-italic';
+  src: url('../fonts/Montserrat-Italic.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: italic;
+}
